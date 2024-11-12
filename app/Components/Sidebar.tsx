@@ -17,7 +17,6 @@ export const Sidebar = () => {
       </div>
       
       <div className="flex flex-col mt-8">
-        <ChartItemNew />
         <ChatList chats={ chats} />
       </div>
     </div>
