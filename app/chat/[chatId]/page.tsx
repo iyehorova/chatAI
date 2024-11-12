@@ -5,7 +5,8 @@ import { Params } from 'next/dist/server/request/params';
 
 
 
-export default function ChatPage({ params }: { params: Params}) {
+export default async function ChatPage(props: { params: Promise<Params>}) {
+  const params = await props.params;
   const { chatId } = params;
   console.log(chatId);
   const data = [
