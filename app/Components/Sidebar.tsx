@@ -1,5 +1,4 @@
 import { ChatBubbleMainIcon } from "../UI/ChatBubbleMainIcon";
-import { ChartItemNew } from "./ChatItemNew";
 import { ChatList } from "./ChatList";
 
 export const Sidebar = () => {
